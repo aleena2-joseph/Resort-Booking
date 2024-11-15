@@ -1,0 +1,150 @@
+.navbar-nav {
+  text-align: right;
+}
+.align-elements {
+  margin-left: auto;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.c-item {
+  height: 480px;
+}
+.c-image {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+.info-card-image {
+  height: 400px;
+  width: 300px;
+  border-radius: 50%;
+}
+.info-card {
+  align-items: center;
+  height: 500px;
+  margin: 40px 50px;
+  gap: 150px;
+  /* border:solid black; */
+}
+.info-card-content {
+  width: 500px;
+  font-size: 20px;
+  margin-left: 60px;
+  padding: 20px;
+  text-align: left;
+}
+.card-1 {
+  /* opacity: 80%; */
+
+  justify-content: baseline;
+  align-content: end;
+  padding: 15px;
+  transition: filter 0.3s ease;
+  background-image: url("https://images.pexels.com/photos/17255758/pexels-photo-17255758/free-photo-of-close-up-of-wooden-birdhouse-in-forest.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+  filter: brightness(0.6);
+  background-size: cover;
+  height: 700px;
+  width: 250px;
+}
+.main-cards {
+  margin: 50px 100px;
+  color: white;
+  gap: 30px;
+}
+.card-button {
+  border-radius: 30px;
+  background: none;
+  border: solid white;
+  color: white;
+}
+.card-1:hover,
+.card-2:hover,
+.dine-card:hover {
+  filter: brightness(1);
+  transform: scale(1.05);
+}
+.card-2 {
+  align-content: end;
+  justify-content: baseline;
+  padding: 20px;
+  width: auto;
+  height: 250px;
+  background-color: rgb(3, 29, 3);
+  opacity: 0.8;
+  filter: brightness(0.6);
+}
+.two-cards {
+  gap: 30px;
+}
+.dine-card {
+  width: 1000;
+  height: 420px;
+  background-image: url("https://images.pexels.com/photos/1001773/pexels-photo-1001773.jpeg");
+  filter: brightness(0.6);
+  background-size: cover;
+  margin: 30px;
+  margin-left: 0px;
+  align-content: end;
+  justify-content: baseline;
+  padding: 20px;
+  margin-right: 0px;
+  /* margin-right: auto; */
+}
+.card-content-quote {
+  font-family: cormorant-garamond;
+  font-size: 50px;
+}
+.image {
+  background-image: url("https://images.pexels.com/photos/15480349/pexels-photo-15480349/free-photo-of-mandarin-tree-with-fruits.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  filter: brightness(0.6);
+  opacity: 1;
+}
+.footer-img {
+  height: 100px;
+  width: 100px;
+  padding: 0px;
+  margin: 10px;
+  margin: 20px;
+  border-radius: 50%;
+}
+.footer {
+  background-color: rgb(6, 48, 6);
+  opacity:0.8;
+  color: white;
+  margin: 10px;
+  gap: 90px;
+  padding:30px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding:5px;
+}
+.main-cards,.info-card,.footer
+{
+  font-family:"Lora";
+}
+.footer-container
+{
+  background-color: rgb(6, 48, 6);
+  opacity:0.8;
+  color: white;
+  
+  font-family: "Lora";
+  padding-bottom: 10px;
+}
+.rights
+{
+  text-align: center;
+}
+.navbar-pos {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  z-index: 1000; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}

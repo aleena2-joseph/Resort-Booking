@@ -1,0 +1,137 @@
+.dasboard-heading
+{
+  color:green;
+  
+}
+.welcome-text
+{
+  font-size: 30px;
+  color: green;
+  margin: 20px;
+}
+.heading{
+  margin: 20px 50px;
+}
+table th
+{
+  padding: 10px;
+}
+table td
+{
+  padding:10px;
+ color:rgb(73, 69, 69)
+}
+table {
+  /* width: 100%; */
+  border-collapse: collapse;
+  margin:  10px 50px;
+  
+}
+
+table th, table td {
+  padding: 8px;
+  border: 1px solid #e0e0e0; /* Light grey border */
+  text-align: center;
+}
+
+table th {
+  background-color: #105612;
+  opacity: 0.8;
+  color: white;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  width: 400px;
+  height:60px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  padding: 5px 10px;
+  
+}
+
+/* Input field styling */
+.search-bar input[type="text"] {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+/* Search button styling */
+.search-bar button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #45a049;
+}
+
+table td {
+  background-color: #fafafa; /* Very light grey background for cells */
+}
+.admin-profile-img
+{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.main
+{
+  margin: 10px 50px;
+}
+.admin-profile
+{
+  gap: 20px;
+  background-color: rgb(203, 207, 200);
+  padding:10px;
+  border-radius: 15px;
+  color: #105612;
+  margin-left: auto;
+ 
+}
+.bar-graph
+{
+  height:500px;
+  width:800px;
+  margin:20px 50px;
+}
+
+.date-picker
+{
+  margin: 50px;
+  height:400px;
+  width: 400px;
+}
+table a{
+  text-decoration: none;
+  color:green;
+}
+.icons
+{
+  gap:20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  height:60px;
+  width:400px;
+  margin-left: auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(211, 222, 213);
+}
+.icons i{
+  height:50px;
+  width:50px;
+}
